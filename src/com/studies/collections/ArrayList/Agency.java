@@ -14,7 +14,7 @@ public class Agency {
             }
             hotels.add(newHotel);
         } catch (HotelsExceptions e) {
-            System.out.println(e.getMessage());
+            e.printStackTrace();
         }
     }
 
